@@ -11,12 +11,15 @@ Part I: Planning & Design (15 pts)
 * Outline expansion ideas
 
 Game Idea:
-
+space invaders
 
 Game Rules:
-
+shoot down all of the space invaders to win
+if the invaders shoot you or reach you, you lose
 
 Major Game Elements:
-
+destructable cover and invader movement
 
 Gameplay Process:
+the space invaders will slowly move down the screen in a side-to-side motion,
+the goal of the game is the player has to shoot down all the invaders without them reaching or shooting the player
