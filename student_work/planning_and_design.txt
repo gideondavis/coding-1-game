@@ -19,6 +19,7 @@ if the invaders shoot you or reach you, you lose
 
 Major Game Elements:
 destructable cover and invader movement
+14x14 board
 
 Gameplay Process:
 the space invaders will slowly move down the screen in a side-to-side motion,
