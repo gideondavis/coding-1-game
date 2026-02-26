@@ -9,23 +9,19 @@
 import curses
 
 game_data = {
-    'width': 5,
-    'height': 5,
-    'player': {"x": 0, "y": 0, "score": 0, "energy": 10, "max_energy": 10},
-    'eagle_pos': {"x": 4, "y": 4},
-    'collectibles': [
-        {"x": 2, "y": 1, "collected": False},
-    ],
+    'width': 15,
+    'height': 15,
+    'player': {"x": 14, "y": 14, "score": 0, "energy": 10, "max_energy": 10},
+    'eagle_pos': {"x": 14, "y": 0},
     'obstacles': [
         {"x": 1, "y": 2},
         {"x": 3, "y": 1}
     ],
 
     # ASCII icons
-    'turtle': "\U0001F422",
-    'eagle_icon': "\U0001F985",
+    'turtle': "🛸",
+    'eagle_icon': "👾",
     'obstacle': "\U0001FAA8 ",
-    'leaf': "\U0001F343",
     'empty': "  "
 }
 
@@ -47,11 +43,9 @@ def draw_board(stdscr):
             # Obstacles
             elif any(o['x'] == x and o['y'] == y for o in game_data['obstacles']):
                 row += game_data['obstacle']
-            # Collectibles
-            elif any(c['x'] == x and c['y'] == y and not c['collected'] for c in game_data['collectibles']):
-                row += game_data['leaf']
             else:
                 row += game_data['empty']
+            
         stdscr.addstr(y, 0, row, curses.color_pair(1))
 
     stdscr.refresh()
