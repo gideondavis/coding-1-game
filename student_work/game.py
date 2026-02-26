@@ -14,14 +14,14 @@ game_data = {
     'player': {"x": 14, "y": 14, "score": 0, "energy": 10, "max_energy": 10},
     'eagle_pos': {"x": 14, "y": 0},
     'obstacles': [
-        {"x": 1, "y": 2},
-        {"x": 3, "y": 1}
+        {"x": 1, "y": 13},
+        {"x": 2, "y": 13}
     ],
 
     # ASCII icons
     'turtle': "🛸",
     'eagle_icon': "👾",
-    'obstacle': "\U0001FAA8 ",
+    'obstacle': "🟩",
     'empty': "  "
 }
 
