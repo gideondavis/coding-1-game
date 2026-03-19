@@ -3,7 +3,7 @@
 Due date: 3/6
 
 When you finish, add your video link here and submit one link to your project repository.
-* [Playtesting Video (1 per group)](https://new.express.adobe.com/id/urn:aaid:sc:VA6C2:4997219d-5b39-4230-8ce7-76bea72a4a17?invite=true&accept=true%3Fpreload%3Dsharesheet&promoid=Z2G1FQKR&mv=other)
+* [Playtesting Video (1 per group)](https://drive.google.com/file/d/1mAX4xkIv7Sba_Ib0HEs5JYJwnKes6jTm/view?usp=sharing)
 
 In this project, you will design and build a video game.  I recommend that you design a game like; snake, frogger, or pacman, but your game choice is up to you.  We will use github to manage our work and collaborate, and we will also use the curses library to enhance our terminal to simulate a video game console.  To get started, follow the link below to fork the project repository, be sure to take a look at the example project as well.
 
